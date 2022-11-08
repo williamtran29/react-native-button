@@ -1,5 +1,3 @@
-'use strict';
-
 import React, { Component } from 'react';
 import {
   View,
@@ -10,34 +8,10 @@ import {
   TouchableNativeFeedback,
   Platform
 } from 'react-native';
-import PropTypes from 'prop-types';
+
 import isEqual from 'lodash.isequal';
 
 class Button extends Component {
-  static propTypes = {
-    textStyle: Text.propTypes.style,
-    disabledStyle: Text.propTypes.style,
-    children: PropTypes.oneOfType([
-      PropTypes.string,
-      PropTypes.node,
-      PropTypes.element
-    ]),
-    testID: PropTypes.string,
-    accessibilityLabel: PropTypes.string,
-    activeOpacity: PropTypes.number,
-    allowFontScaling: PropTypes.bool,
-    isLoading: PropTypes.bool,
-    isDisabled: PropTypes.bool,
-    activityIndicatorColor: PropTypes.string,
-    delayLongPress: PropTypes.number,
-    delayPressIn: PropTypes.number,
-    delayPressOut: PropTypes.number,
-    onPress: PropTypes.func,
-    onLongPress: PropTypes.func,
-    onPressIn: PropTypes.func,
-    onPressOut: PropTypes.func,
-    background: (TouchableNativeFeedback.propTypes) ? TouchableNativeFeedback.propTypes.background : PropTypes.any,
-  }
 
   static isAndroid = (Platform.OS === 'android')
 
