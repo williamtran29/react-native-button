@@ -1,34 +1,3 @@
-# apsl-react-native-button
-<img src="https://travis-ci.org/APSL/react-native-button.svg?branch=master" />
-<img src="https://img.shields.io/badge/coverage-82%25-green.svg" />
-<img src="https://img.shields.io/npm/dm/apsl-react-native-button.svg" />
-
-A React Native button component customizable via ``style`` props.
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/wiki/APSL/react-native-button/button.png" alt="Button component screenshot" width="400">
-<img src="https://raw.githubusercontent.com/wiki/APSL/react-native-button/and.png" alt="Android Button component screenshot" width="400">
-</p>
-
-Renders a ``TouchableOpacity`` under iOS and a ``TouchableNativeFeedback`` under Android.
-
-## Install
-`apsl-react-native-button>=2.6.0` needs React Native 0.28 or higher.
-`apsl-react-native-button>=2.5.0` needs React Native 0.25 or higher.
-`apsl-react-native-button<=2.4.2` needs React Native 0.16 or higher.
-
-Install the package:
-
-```bash
-$ npm i apsl-react-native-button --save
-```
-
-Import the ``Button`` component:
-
-```javascript
-import Button from 'apsl-react-native-button'
-```
-
 ## Usage
 
 Provide ``TouchableWithoutFeedback``' props to the component (including ``style``),
@@ -75,9 +44,6 @@ your own styles to your child elements as you see fit. Multiple children are all
 | ``background`` | ``TouchableNativeFeedback.propTypes.background`` | **Android only**. The background prop of ``TouchableNativeFeedback``. |
 Check the included example for more options.
 
-## Similar projects
-
-[James Ide](https://github.com/ide/)'s ``react-native-button`` https://github.com/ide/react-native-button/
 
 ## License
 
